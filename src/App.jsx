@@ -1,17 +1,15 @@
 import './App.css'
 import React from 'react'
-import Markers from './components/marker/Markers';
-
+import Maps from './components/Maps'
 
 
 function App() {
   return (
       <div className="App">
-        <h1>Hola Mundo</h1>
-        <Markers />
+        <Maps/>
       </div>
   );
-}
-
+} 
 
 export default App
+
