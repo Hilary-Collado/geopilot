@@ -1,5 +1,4 @@
 
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2518416223.
 import React, { useCallback, useMemo, useRef, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
@@ -37,7 +36,7 @@ function DraggableMarker() {
         <span onClick={toggleDraggable}>
           {draggable
             ? 'Marker is draggable'
-            : 'Click here to make marker draggable'}
+            : 'Hola Mundo'}
         </span>
       </Popup>
     </Marker>
