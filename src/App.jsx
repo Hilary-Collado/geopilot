@@ -6,8 +6,12 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon, divIcon, point } from 'leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 
+import Header from './Header'; 
+
 function App() {
 
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:635873163.
+  // MAPA DE COORDENADAS
   // COORDENADAS
   const Markers = [
     {
@@ -55,7 +59,13 @@ function App() {
 
   // function App() {
   return (
+
+   
     <div className="App">
+
+  <Header />
+
+
       {/* COORDENADAS DONDE SE UBICARÁ CUANDO SE INGRESE */}
       <MapContainer center={[18.909672, -70.28043]} zoom={10}>
 
