@@ -68,17 +68,11 @@ function App() {
         />   */}
 
         {/* GOOGLE MAP  */}
-         <TileLayer
+        <TileLayer
           attribution="google map"
           url="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
         />
-       
 
-
-        {/* <TileLayer
-          attribution="Mapa Claro"
-          url=" http://lxpwlogic10.corp.codetel.com.do:7003/mapa-digital/?usr=Estanly%20Ceballos&pswd=%20&app=mapa-digital&token=53367325&url=http%3A%2F%2Fportalweb%2Fuserportal"
-        /> */}
 
 
         {/* MarkerClusterGroup AGRUPAR LOS ICONOS Y LOS MENSAJES */}
