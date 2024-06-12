@@ -4,34 +4,34 @@ import 'leaflet/dist/leaflet.css'
 
 import { MapContainer, TileLayer } from 'react-leaflet';
 
-export default function App() {
+// export default function App() {
 
-  const Markers = [
-    {
-      getcode: [18.228074, -70.544055],
-      popUp: "Hello world"
-    },
-    {
-      getcode: [18.385408, -69.851357],
-      popUp: "Hello world"
-    },
-    {
-      getcode: [18.903831, -70.270576],
-      popUp: "Hello world"
-    }, {
-      getcode: [18.909672, -70.28043],
-      popUp: "Hello world"
-    },
-    {
-      getcode: [18.910589, -70.281204],
-      popUp: "Hello world"
-    },
-    {
-      getcode: [18.911439, -70.398757],
-      popUp: "Hello world"
-    },
+//   const Markers = [
+//     {
+//       getcode: [18.228074, -70.544055],
+//       popUp: "Hello world"
+//     },
+//     {
+//       getcode: [18.385408, -69.851357],
+//       popUp: "Hello world"
+//     },
+//     {
+//       getcode: [18.903831, -70.270576],
+//       popUp: "Hello world"
+//     }, {
+//       getcode: [18.909672, -70.28043],
+//       popUp: "Hello world"
+//     },
+//     {
+//       getcode: [18.910589, -70.281204],
+//       popUp: "Hello world"
+//     },
+//     {
+//       getcode: [18.911439, -70.398757],
+//       popUp: "Hello world"
+//     },
 
-  ]
+//   ]
   // 18.228074,	-70.544055
   // 18.385408,	-69.851357
   // 18.903831,	-70.270576
@@ -43,7 +43,7 @@ export default function App() {
 
 
 
-  // function App() {
+  function App() {
   return (
     <div className="App">
       <MapContainer center={[19.726728, -70.923816]} zoom={13}>
